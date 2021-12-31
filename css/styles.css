@@ -543,8 +543,7 @@ img {
 .connect__link:focus {
   background-color: #2196f3;
 }
-.footer-form {
-}
+
 .form__title {
   display: inline-block;
   margin-bottom: 20px;
@@ -884,8 +883,6 @@ img {
 }
 /*----------------form-----------------------*/
 
-.form {
-}
 .form__box--checkbox {
   appearance: none;
   position: absolute;

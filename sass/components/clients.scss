@@ -1,0 +1,53 @@
+.clients__item {
+  margin-right: 30px;
+}
+.clients__link {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;
+  transition-property: border-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients :focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.clients__item :hover {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.clients__item :focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.clients {
+  display: flex;
+  justify-content: center;
+  color: #afb1b8;
+  transition-property: color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients:last-child {
+  margin-right: 0;
+}
+.clients__item :hover {
+  fill: #2196f3;
+}
+.clients__item :focus {
+  fill: #2196f3;
+}
+.clients__link :focus {
+  fill: #2196f3;
+}
+.clients__icon {
+  fill: currentColor;
+}
