@@ -57,7 +57,7 @@
   text-decoration: none;
 }
 
-.adress__link:hover {
+.adress__link:hover:hover {
   color: var(--color-hover-footer-link);
 }
 

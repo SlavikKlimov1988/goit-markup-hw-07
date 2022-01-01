@@ -45,20 +45,30 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.form__filde:focus-within input {
-  border-color: #2196f3;
+.form__filde {
+  &:focus-within {
+    input {
+      border-color: #2196f3;
+    }
+  }
 }
-.form__input:focus {
-  border: 1px solid #2196f3;
-  color: #2196f3;
+.form__input {
+  &:focus {
+    border: 1px solid #2196f3;
+    color: #2196f3;
+  }
 }
-input:focus {
-  color: #2196f3;
-  border: 1px solid #2196f3;
+input {
+  &:focus {
+    color: #2196f3;
+    border: 1px solid #2196f3;
+  }
 }
-input:hover {
-  border: 1px solid #2196f3;
-  color: #2196f3;
+input {
+  &:hover {
+    border: 1px solid #2196f3;
+    color: #2196f3;
+  }
 }
 input:hover ~ .backdrop-icon {
   fill: #2196f3;
@@ -94,8 +104,10 @@ textarea {
 .form__checkbox {
   margin-bottom: 30px;
 }
-.form__checkbox a {
-  color: #2196f3;
+.form__checkbox {
+  a {
+    color: #2196f3;
+  }
 }
 .form__check {
   cursor: pointer;

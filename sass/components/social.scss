@@ -26,20 +26,28 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social__item:hover {
-  fill: #ffffff;
+.social__item {
+  &:hover {
+    fill: #ffffff;
+  }
 }
-.social__item:focus {
-  fill: #ffffff;
+.social__item {
+  &:focus {
+    fill: #ffffff;
+  }
 }
 .social__icon {
   fill: currentColor;
 }
-.social__link:hover {
-  background-color: #2196f3;
-  color: #fff;
+.social__link {
+  &:hover {
+    background-color: #2196f3;
+    color: #fff;
+  }
 }
-.social__link:focus {
-  background-color: #2196f3;
-  color: #fff;
+.social__link {
+  &:focus {
+    background-color: #2196f3;
+    color: #fff;
+  }
 }

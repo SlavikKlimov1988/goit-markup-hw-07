@@ -2,11 +2,15 @@
   display: flex;
 }
 
-.about:last-child {
-  margin-right: 0;
+.about {
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.about__item:not(:last-child) {
-  margin-right: 30px;
+.about__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .about__block {
   display: flex;

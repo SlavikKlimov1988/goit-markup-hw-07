@@ -40,8 +40,10 @@
 .sait-nav__item {
   margin-right: 50px;
 }
-.sait-nav:last-child {
-  margin-right: 0;
+.sait-nav {
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .sait-nav__link {
   position: relative;
@@ -56,27 +58,39 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.sait-nav__link:hover {
-  color: var(--color-button-link);
+.sait-nav__link {
+  &:hover {
+    color: var(--color-button-link);
+  }
 }
-.sait-nav__link:active {
-  color: var(--color-button-link);
+.sait-nav__link {
+  &:active {
+    color: var(--color-button-link);
+  }
 }
-.sait-nav__link:focus {
-  color: var(--color-button-link);
+.sait-nav__link {
+  &:focus {
+    color: var(--color-button-link);
+  }
 }
-.sait-nav__link.sait-nav__link--curent {
-  color: #2196f3;
+.sait-nav__link {
+  .sait-nav__link--curent {
+    color: #2196f3;
+  }
 }
-.sait-nav__link.sait-nav__link--curent::after {
-  position: absolute;
-  content: " ";
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  border-radius: 2px;
-  bottom: -1px;
-  left: 0;
+.sait-nav__link {
+  .sait-nav__link--curent {
+    &::after {
+      position: absolute;
+      content: " ";
+      width: 100%;
+      height: 4px;
+      background-color: #2196f3;
+      border-radius: 2px;
+      bottom: -1px;
+      left: 0;
+    }
+  }
 }
 .sait-nav__link:focus::after {
   position: absolute;
@@ -123,15 +137,21 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contakts__link:hover {
-  color: var(--color-button-link);
+.contakts__link {
+  &:hover {
+    color: var(--color-button-link);
+  }
 }
-.contakts__link:focus {
-  color: #2196f3;
+.contakts__link {
+  &:focus {
+    color: #2196f3;
+  }
 }
 
-.contakts__link:active {
-  color: var(--color-button-link);
+.contakts__link {
+  &:active {
+    color: var(--color-button-link);
+  }
 }
 .contakt__icon {
   fill: currentColor;

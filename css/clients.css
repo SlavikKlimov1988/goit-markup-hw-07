@@ -27,17 +27,17 @@
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients :focus {
+.clients:focus {
   border-color: #2196f3;
   color: #2196f3;
 }
 
-.clients__item :hover {
+.clients__item:hover {
   border-color: #2196f3;
   color: #2196f3;
 }
 
-.clients__item :focus {
+.clients__item:focus {
   border-color: #2196f3;
   color: #2196f3;
 }
@@ -62,15 +62,15 @@
   margin-right: 0;
 }
 
-.clients__item :hover {
+.clients__item:hover {
   fill: #2196f3;
 }
 
-.clients__item :focus {
+.clients__item:focus {
   fill: #2196f3;
 }
 
-.clients__link :focus {
+.clients__link:focus {
   fill: #2196f3;
 }
 

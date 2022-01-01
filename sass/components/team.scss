@@ -26,8 +26,10 @@
   background-color: var(--color-hover-footer-link);
   text-align: center;
 }
-.team__item:last-child {
-  margin-right: 0;
+.team__item {
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .team__icon {

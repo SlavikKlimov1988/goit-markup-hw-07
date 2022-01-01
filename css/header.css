@@ -92,11 +92,11 @@
   color: var(--color-button-link);
 }
 
-.sait-nav__link.sait-nav__link--curent {
+.sait-nav__link .sait-nav__link--curent {
   color: #2196f3;
 }
 
-.sait-nav__link.sait-nav__link--curent::after {
+.sait-nav__link .sait-nav__link--curent::after {
   position: absolute;
   content: " ";
   width: 100%;
