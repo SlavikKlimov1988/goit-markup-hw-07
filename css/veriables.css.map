@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,oBAAoB,CAAA,QAAC;EACrB,sBAAsB,CAAA,QAAC;EACvB,mBAAmB,CAAA,QAAC;EACpB,mBAAmB,CAAA,yBAAC;EACpB,yBAAyB,CAAA,QAAC;EAC1B,iBAAiB,CAAA,QAAC;EAClB,eAAe,CAAA,QAAC;CACjB",
-    "sources": [
-        "../sass/utils/veriables.scss"
-    ],
-    "names": [],
-    "file": "veriables.css"
-}
