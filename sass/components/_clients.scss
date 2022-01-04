@@ -17,19 +17,19 @@
 }
 
 .clients {
-  &:focus {
+  & :focus {
     border-color: #2196f3;
     color: #2196f3;
   }
 }
 .clients__item {
-  &:hover {
+  & :hover {
     border-color: #2196f3;
     color: #2196f3;
   }
 }
 .clients__item {
-  &:focus {
+  & :focus {
     border-color: #2196f3;
     color: #2196f3;
   }
