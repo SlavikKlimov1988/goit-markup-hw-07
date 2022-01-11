@@ -1,44 +1,44 @@
-.about {
-  display: flex;
-}
+// .about {
+//   display: flex;
+// }
 
-.about {
-  &:last-child {
-    margin-right: 0;
-  }
-}
-.about__item {
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-.about__block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
+// .about {
+//   &:last-child {
+//     margin-right: 0;
+//   }
+// }
+// .about__item {
+//   &:not(:last-child) {
+//     margin-right: 30px;
+//   }
+// }
+// .about__block {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: #f5f4fa;
+//   width: 270px;
+//   height: 120px;
+//   border-radius: 4px;
+//   margin-bottom: 30px;
+// }
 
-.bout__title {
-  margin-bottom: 10px;
+// .bout__title {
+//   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-color-text);
-}
-.about__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secendary-color-text);
-}
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+//   color: var(--primary-color-text);
+// }
+// .about__text {
+//   font-size: 14px;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+//   color: var(--secendary-color-text);
+// }
 /*__________aboutus______________*/
 
 /*-------------aboutus-----------*/
@@ -46,17 +46,29 @@
   position: relative;
 }
 .section__now-padding-top {
-  padding-top: 0;
+  @media screen and(min-width:320px) {
+    display: none;
+  }
+  @media screen and(min-width:1199px) {
+    display: block;
+    padding-top: 0;
+  }
 }
 
 .section__titel {
-  margin-bottom: 50px;
-  text-align: center;
+  @media screen and(min-width:320px) {
+    display: none;
+  }
+  @media screen and(min-width:1199px) {
+    display: none;
+    margin-bottom: 50px;
+    text-align: center;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }
 .aboutus {
   display: flex;
